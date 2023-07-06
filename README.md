@@ -30,6 +30,8 @@ O Nu Kenzie consiste em uma aplicação para gerenciamento de gastos, cadastrand
 
 ## 👩🏻‍💻Tecnologias utilizadas
 - React
+- JavaScript
+- CSS3
 
 <hr>
 
