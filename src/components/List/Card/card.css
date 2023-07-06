@@ -1,0 +1,58 @@
+h3 {
+  font-size: 1rem;
+  margin-bottom: 4px;
+}
+
+.btn-delete {
+  background-color: var(--grey-2);
+  border-radius: var(--radius-2);
+  color: var(--grey-4);
+  padding: 2px 9px;
+  font-size: 0.75rem;
+  margin: 0;
+  margin-top: 9px;
+}
+
+.btn-delete:hover {
+  background-color: var(--grey-4);
+  color: var(--grey-1);
+}
+
+.container-delete {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 15px;
+}
+
+.container-delete > span {
+  color: var(--grey-4);
+  font-size: 0.8rem;
+}
+
+.greenBar {
+  border-left: 5px solid var(--color-secondary);
+  border-radius: 4px 0 0 4px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  height: 100%;
+  width: 0.4rem;
+}
+
+.greyBar {
+  border-left: 5px solid var(--grey-2);
+  border-radius: 4px 0 0 4px;
+  position: absolute;
+  left: 0;
+  top: -2px;
+  height: 100%;
+  width: 0.4rem;
+}
+
+@media (min-width: 550px) {
+  .container-delete {
+    margin: 0;
+    align-items: flex-end;
+  }
+}

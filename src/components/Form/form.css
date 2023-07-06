@@ -1,0 +1,82 @@
+form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--grey-2);
+  margin: 15px;
+  margin-top: 100px;
+  padding: 1.5rem;
+}
+
+input,
+select {
+  background-color: var(--grey-1);
+  border-radius: var(--radius-1);
+  border: 1px solid var(--grey-2);
+  color: var(--grey-4);
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  height: 3rem;
+}
+
+input:focus,
+select:focus {
+  border: 1px solid var(--grey-4);
+  outline: none;
+  background-color: #ffffff;
+}
+
+label {
+  font-weight: 400;
+  font-size: 0.95rem;
+  margin-top: 12px;
+  margin-bottom: 7px;
+}
+
+button {
+  background-color: var(--color-primary);
+  color: var(--grey-1);
+  font-size: 0.9rem;
+  font-weight: 700;
+  border-radius: var(--radius-1);
+  padding: 0.8rem;
+  margin-top: 25px;
+}
+
+button:hover {
+  background-color: var(--color-primary-2);
+}
+
+span {
+  font-size: 0.73rem;
+  color: var(--grey-3);
+  margin-top: 2px;
+}
+
+@media (min-width: 550px) {
+  form {
+    width: 100%;
+  }
+
+  input,
+  select,
+  button {
+    padding: 0.9rem;
+    font-size: 0.8rem;
+  }
+
+  .first-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    min-width: 500px;
+    max-width: 50rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2.5rem;
+  }
+}
